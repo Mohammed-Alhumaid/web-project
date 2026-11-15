@@ -1,0 +1,54 @@
+body {
+    background-color: lightgray;
+    margin: 0; /* إزالة المسافة الخارجية */
+    text-align: center; /* توسيط النص */
+}
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    padding: 25px; /* مسافة داخلية */
+}
+
+#navbar {
+    background-color: black;
+    padding: 15px; /* مسافة داخلية */
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none; /* إزالة الخط تحت الروابط */
+    margin: 15px; /* مسافة خارجية */
+}
+
+#home, #about, #skills, #projects, #contact {
+    background-color: white;
+    margin: 20px; /* مسافة خارجية */
+    padding: 20px; /* مسافة داخلية */
+}
+
+/* تنسيق الموقع على شاشات الجوال */
+@media (max-width: 600px) {
+
+    #navbar a {
+        display: block; /* كل رابط في سطر */
+        margin: 10px; /* مسافة خارجية */
+    }
+
+    #home, #about, #skills, #projects, #contact {
+        margin: 10px; /* مسافة خارجية */
+        padding: 10px; /* مسافة داخلية */
+    }
+}
+
+input, textarea {
+    padding: 10px; /* مسافة داخلية */
+    margin: 5px; /* مسافة خارجية */
+}
+
+input[type="submit"] {
+    background-color: darkblue;
+    color: white;
+    padding: 10px; /* مسافة داخلية */
+    border: none; /* إزالة الحدود */
+}
